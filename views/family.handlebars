@@ -1,0 +1,20 @@
+<h1>{{title}}</h1>
+<br>
+<!-- <p>{{message}}</p> -->
+<br>
+<div>
+    <!-- <h2>Family</h2> -->
+    <ul>
+        {{#each data}}
+        <li>
+            <h3>{{mov_name}}</h3>
+            <img src="{{mov_pic}}" alt="{{mov_name}}">
+            <p>{{mov_desc}}</p>
+            <video id="trailers" controls>
+              <source src="{{mov_trailer}}" type="video/mp4"/>
+                Your browers does not supprot the video tag
+            </video>
+        </li>
+        {{/each}}
+    </ul>
+</div>

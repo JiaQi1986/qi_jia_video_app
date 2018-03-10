@@ -1,0 +1,50 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  text-align: center;
+}
+
+video {
+  margin-bottom: 200px;
+}
+
+h1 {
+  color: #6dcff6;
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+h2 {
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+  font-size: 30px;
+}
+
+p {
+  color: #cccccc;
+  font-size: 20px;
+  width: 500px;
+  margin-left: 350px;
+}
+
+a {
+  color: #00B7FF;
+  font-size: 20px;
+  transition: all .3 linear;
+}
+
+a:hover {
+  color: #f7a922;
+}
+
+video {
+  width: 50%;
+}
+
+img {
+  height: 500px;
+}
